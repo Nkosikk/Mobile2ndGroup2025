@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class AndroidCalculatorTest {
+public class git AndroidCalculatorTest {
 
     private AndroidDriver driver;
 
