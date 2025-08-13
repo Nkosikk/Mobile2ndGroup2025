@@ -1,14 +1,14 @@
 package Steps;
 
 import Utils.AppiumDriverFactory;
-import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.AppiumDriver;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 
 public class Hooks {
 
-    protected static AndroidDriver driver;
+    protected static AppiumDriver driver;
 
     public Hooks() {
         this.driver = AppiumDriverFactory.getDriver();
