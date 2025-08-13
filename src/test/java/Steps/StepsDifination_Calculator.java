@@ -22,7 +22,7 @@ public class StepsDifination_Calculator {
 
     @And("I click on the number one button")
     public void i_click_on_the_number_one_button() {
-
+    calculatorScreen.pressDigitOne();
     }
 
     @And("I click on the plus sign button")
@@ -32,7 +32,7 @@ public class StepsDifination_Calculator {
 
     @When("I click on the equal sign button")
     public void i_click_on_the_equal_sign_button() {
-        ;
+
     }
 
     @Then("the result should be number two")
