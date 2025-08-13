@@ -22,6 +22,7 @@ public class StepsDifination_Calculator {
 
     @And("I click on the number one button")
     public void i_click_on_the_number_one_button() {
+//        calculatorScreen.clickOnNumberOneButton();
 
     }
 
