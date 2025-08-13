@@ -30,7 +30,7 @@ public class AppiumDriverFactory {
 
     }
 
-    private static AppiumDriverFactory getInstanceOfAppiumDriverFactory(String path) throws MalformedURLException {
+    public static AppiumDriverFactory getInstanceOfAppiumDriverFactory(String path) throws MalformedURLException {
         if (instanceOfAppiumDriverFactory == null) {
             instanceOfAppiumDriverFactory = new AppiumDriverFactory(path);
         }
