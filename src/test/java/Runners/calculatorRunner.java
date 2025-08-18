@@ -12,5 +12,5 @@ import io.cucumber.testng.CucumberOptions;
         monochrome = true,
         tags = "@NkosiTest"
 )
-public class CalculatorRunner extends AbstractTestNGCucumberTests {
+public class calculatorRunner extends AbstractTestNGCucumberTests {
 }
