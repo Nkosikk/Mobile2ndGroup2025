@@ -1,4 +1,7 @@
+@calculator @Regression
 Feature: Calculator
+
+  @Regression @NkosiTest
   Scenario: verify that one plus one is equal to two
     Given I have a Calculator app
     And I click on the number one button
