@@ -21,12 +21,7 @@ public class StepsDefinition_Calculator {
 
     @And("I click on the number one button")
     public void i_click_on_the_number_one_button() {
-<<<<<<< HEAD:src/test/java/Steps/StepsDifination_Calculator.java
-//        calculatorScreen.clickOnNumberOneButton();
-
-=======
-    calculatorScreen.pressDigitOne();
->>>>>>> db53ccfba51eee138b76a4d224efece429cf914c:src/test/java/Steps/StepsDefinition_Calculator.java
+        calculatorScreen.pressDigitOne();
     }
 
     @And("I click on the plus sign button")

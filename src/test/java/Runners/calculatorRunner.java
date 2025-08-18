@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {"pretty", "html:target/cucumber-reports.html", "json:target/cucumber.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         monochrome = true,
-        tags = "@NkosiTest"
+        tags = "@Regression"
 )
 public class calculatorRunner extends AbstractTestNGCucumberTests {
 }
