@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
-public class CalculatorScreen {
+public class CalculatorScreen_1 {
     private final AndroidDriver driver;
 
     @FindBy(id = "com.google.android.calculator:id/digit_1")
@@ -22,7 +22,7 @@ public class CalculatorScreen {
     @FindBy(id = "com.google.android.calculator:id/result_final")
     WebElement resultPreview;
 
-    public CalculatorScreen(AndroidDriver driver) {
+    public CalculatorScreen_1(AndroidDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -41,13 +41,5 @@ public class CalculatorScreen {
         new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.visibilityOf(resultPreview));
         return resultPreview.getText();
-//        try {
-//            String result = resultPreview.getText();
-//            System.out.println("Result: " + result);
-//            return result;
-//        } catch (Exception e) {
-//            System.out.println("Unable to retrieve the result. Error: " + e.getMessage());
-//            return null;
-//        }
     }
 }
