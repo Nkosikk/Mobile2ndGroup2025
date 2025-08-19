@@ -19,7 +19,7 @@ public class CalculatorScreen {
     @FindBy(id = "com.google.android.calculator:id/eq")
     WebElement equalsOperator;
 
-    @FindBy(id = "com.google.android.calculator:id/result_preview")
+    @FindBy(id = "com.google.android.calculator:id/result_final")
     WebElement resultPreview;
 
     public CalculatorScreen(AndroidDriver driver) {
@@ -41,7 +41,6 @@ public class CalculatorScreen {
         new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.visibilityOf(resultPreview));
         return resultPreview.getText();
-    }
 //        try {
 //            String result = resultPreview.getText();
 //            System.out.println("Result: " + result);
@@ -50,6 +49,5 @@ public class CalculatorScreen {
 //            System.out.println("Unable to retrieve the result. Error: " + e.getMessage());
 //            return null;
 //        }
-
-//    }
+    }
 }
