@@ -24,7 +24,7 @@ src/ ├── main/ │
     └── java/ 
     ├── test/ 
 │ ├── java/
-│ │ ├── Screens/ # Page Object Model (POM) classes │ │ ├── Steps/ # Step Definitions for Cucumber │ │ ├── Runners/ # Cucumber Test Runners │ │ └── Utils/ # Utility classes (e.g., Appium Driver Factory) │ └── resources/ │ ├── Features/ # Cucumber feature files │ └── Config/ # Configuration files
+│ │ ├── ScreensForCalculator/ # Page Object Model (POM) classes │ │ ├── Steps/ # Step Definitions for Cucumber │ │ ├── Runners/ # Cucumber Test Runners │ │ └── Utils/ # Utility classes (e.g., Appium Driver Factory) │ └── resources/ │ ├── Features/ # Cucumber feature files │ └── Config/ # Configuration files
 
 ---
 

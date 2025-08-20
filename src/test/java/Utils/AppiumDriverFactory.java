@@ -28,6 +28,7 @@ public class AppiumDriverFactory {
                     URI.create("http://127.0.0.1:4723/").toURL(),
                     capabilities
             );
+
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }

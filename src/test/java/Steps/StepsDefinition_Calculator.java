@@ -1,14 +1,11 @@
 package Steps;
 
-import Screens.CalculatorScreen_1;
-import Screens.CalculatorScreen_2;
+import ScreensForCalculator.CalculatorScreen_1;
+import ScreensForCalculator.CalculatorScreen_2;
 import Utils.AppiumDriverFactory;
 import io.cucumber.java.en.*;
 
 import java.net.MalformedURLException;
-
-import static org.testng.Assert.assertEquals;
-
 
 public class StepsDefinition_Calculator {
 
