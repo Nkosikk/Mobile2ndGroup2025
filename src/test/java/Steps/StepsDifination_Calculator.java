@@ -13,14 +13,15 @@ public class StepsDifination_Calculator {
 
     @Given("I have a Calculator app")
     public void i_have_a_calculator_app() throws MalformedURLException {
-        // iOS Calculator app bundle ID
-        String bundleId = "com.apple.calculator";
+        // iOS Safari app bundle ID
+        String bundleId = "com.apple.mobilesafari";
         AppiumDriverFactory.getInstanceOfAppiumDriverFactory(bundleId, true); // true for iOS
         this.calculatorScreen = new CalculatorScreen(AppiumDriverFactory.getDriver());
     }
 
     @And("I click on the number one button")
     public void i_click_on_the_number_one_button() {
+        calculatorScreen.pressDigitOne();
         calculatorScreen.pressDigitOne();
     }
 
